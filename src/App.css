@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+.first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60% 0;
+}
+
+.continue{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #468df3;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.continue-title{
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+/* Login */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30% 0;
+}
+
+.title-input{
+  font-weight: 700;
+}
+
+.input{
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+  outline: none;
+  border-color: #C3C7E5;
+}
+
+.accept{
+  height: 40px;
+  background-color: #468df3 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 300px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.form-control{
+  outline: none;
+  border-color: #C3C7E5;
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+/* Account */
+.account-container{
+  width: 410px;
+}
+
+.body{
+  padding: 0 20px;
+  background-color: #F7F7F7;
+  width: 100%;
+}
+
+.account-image{
+  margin: 20px;
+  height: 70px;
+  width: 70px;
+}
+
+.account-image-2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+
+}
+
+.item-list{
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+  height: 140px;
+  box-shadow: 0 4px 4px 0;
+  width: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Qr */
+.qr-1-container{
+  margin-left: 10px;
+  position: fixed;
+  background-color: #fff;
+  height: 600px;;
+  display: none;
+  transform: translateY(-50%);
+}
+
+.backgroundQr1Black{
+  position: relative;
+  height: 100px;
+  top: 10%;
+}
+
+.backgroundSupQr1Black{
+  position: absolute;
+  /* padding: 80px 50px; */
+  background-color: #fff;
+  bottom: 16%;
+  width: 330px;
+  right: 5%;
+  height: 164px;
+  border-radius: 10px;
+}
+
+.background-title{
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.background-choose{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  border-top-color: #000;
+  height: 66px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.qr-1-spin{
+  font-size: 40px;
+  transform: translateY(50%);
+}
+
+.Modal-qr1{
+  transform: translateY(0%);
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  height: 0%;
+  display: block;
+  animation: showQr1 ease 1s forwards;
+}
+
+.modal-background{
+  display: flex;
+  /* padding: 0 20px; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.modal{
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  width: 300px;
+  /* padding: 20px; */
+  font-size: 20px;
+  /* padding: 0 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 15px;
+  transform: translateY(10%);
+  height: 100%;
+}
+
+.loading{
+  font-size: 30px;
+  background-color: #fff;
+  transform: translateY(50%);
+  width: 300px;
+}
+
+.button-modal{
+  width: 150px;
+  height: 70px;
+  border: 1px solid #e7e7e7;
+  border-top-color: #000;
+  border-bottom-color: #000;
+  background-color: #e7e7e7;
+  color: #468df3;
+  font-size: 25px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: translateY(40%);
+}
+
+.modal-title{
+  padding-top: 10px;
+}
+
+.btn-cam{
+  height: 40px;
+  /* width: 20px; */
+  background-color: #fff;
+}
+
+.ant-modal-body {
+  padding: 100px 25px !important;
+}
+
+.footer-account{
+  width: 100%;
+}
+
+.footer-account p{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.footer-account-image{
+  width: 380px;
+}
+
+/* visible 2 */
+.gift{
+  /* height: 600px; */
+  /* background-color: #fff !important; */
+}
+
+.modal-gift{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-gift-input{
+  margin-top: 100px;
+}
+
+.modal-gift-image{
+  font-size: 40px;
+}
+
+.modal-gift-button{
+  margin-top: 50px ;
+  width: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes showQr1 {
+  from {
+    transform: translateY(0%);
+  } to {
+    transform:  translateY(5%) ;
+  }
+}
